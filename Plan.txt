@@ -1,0 +1,6 @@
+List of things to do porfolio:
+- Main porfolio
+- create contact form
+- 404 form
+- resume download
+- add js features
