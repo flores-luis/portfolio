@@ -14,37 +14,34 @@
     <!-- Nav Bar Section -->
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container">
-            <a class="nav-link">
-                <i class="fa-solid fa-house"></i>
-            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mx-auto mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="about">
+                        <a class="nav-link" href="#home">
+                            <i class="fa-solid fa-house"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#about">
                             <i class="fa-solid fa-user"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="tools">
+                        <a class="nav-link" aria-current="page" href="#toolbox">
                             <i class="fa-solid fa-screwdriver-wrench"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects">
+                        <a class="nav-link" href="#projects">
                             <i class="fa-solid fa-list-check"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="exp">
+                        <a class="nav-link" aria-current="page" href="#exp">
                             <i class="fa-solid fa-briefcase"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="education">
-                            <i class="fa-solid fa-graduation-cap"></i>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -84,7 +81,7 @@
     </div>
     <!-- About Me -->
     <div id="about" class="container aboutarea d-flex justify-content-between">
-        <div class="col-4">
+        <div class="col">
             <h1>ABOUT ME</h1>
             <p>
                 Hi! My name is Luis.<br>I find enjoyment in learning, helping others grow, and actively exploring new things.
@@ -92,15 +89,21 @@
                 Fast forward to November 2021...I joined Coding Dojo(a coding bootcamp) in order to sharpen skills and learn new ones and to be better equipped future. Turns out that bootcamp taught me the importance of consistent learning.
             </p>    
         </div>
-        <div class="col-4">
-            Image here
-        </div>
     </div>
     <!-- Tools -->
-    <div id="tools" class="container toolarea">
-        <h1>TOOLS</h1>
-        <div class="row">
-            <p>SQL, Python, Java , etc</p>
+    <div id="toolbox" class="container toolarea">
+        <h1>TOOLBOX</h1>
+        <div class="container">
+            <h2>PROGRAMMING</h2>
+            <p>SQL, HTML, CSS, JavaScript, Python, Java</p>
+        </div>
+        <div class="container">
+            <h2>FRAMEWORKS & TOOLS</h2>
+            <p>Tableau, Bootstrap, Flask, Spring</p>
+        </div>
+        <div class="container">
+            <h2>DATABASE MANAGEMENT SYSTEMS</h2>
+            <p>MySQL, Microsft SQL Server, Oracle</p>
         </div>
     </div>
     <!-- Projects -->
@@ -119,15 +122,6 @@
         <div class="row">
             <p>
                 Tesla and Coding Dojo
-            </p>
-        </div>
-    </div>
-    <!-- Education -->
-    <div id="education" class="container eduarea">
-        <h1>EDUCATION</h1>
-        <div class="row">
-            <p>
-                De Anza College & Ohlone College
             </p>
         </div>
     </div>
